@@ -1,0 +1,143 @@
+Single Variable Data Types (Primitive Data Types)
+
+These data types store only one value in one variable.
+
+Examples:
+
+1. Integer (int)
+Stores whole numbers.
+Example:
+
+
+
+int age = 20;
+
+2. Float (float)
+Stores decimal numbers.
+Example:
+float salary = 12500.50;
+
+3. Character (char)
+Stores a single character.
+Example:
+char grade = 'A';
+
+4. Double (double)
+Stores large decimal values.
+Example:
+
+
+
+double distance = 12345Examples:
+
+1. Array
+Stores multiple values of the same data type.
+Example:
+
+
+
+int marks[5] = {80, 85, 90, 75, 88};
+
+2. Structure
+Stores multiple values of different data types.
+Example:
+
+
+
+struct student {
+    int id;
+    char name[20];
+    float marks;
+};
+
+3. Union
+Stores different data types but one value at a time.
+Example:
+
+
+
+union data {
+    int i;
+    float f;
+};
+
+4. Pointer
+Stores the address of another variable.
+Example:
+
+
+
+int a = 10;
+int *p = &a;
+
+
+
+Multi Variable Data Types (Non-Primitive Data Types)
+
+These data types store multiple values using one name.
+
+Examples:
+
+1. Array
+Stores multiple values of the same data type.
+Example:
+
+
+
+int marks[5] = {80, 85, 90, 75, 88};
+
+2. Structure
+Stores multiple values of different data types.
+Example:
+
+
+
+struct student {
+    int id;
+    char name[20];
+    float marks;
+};
+
+3. Union
+Stores different data types but one value at a time.
+Example:
+
+
+
+union data {
+    int i;
+    float f;
+};
+
+4. Pointer
+Stores the address of another variable.
+Example:
+
+
+
+int a = 10;
+int *p = &a;
+  
+
+
+
+List Example:
+fruits = ["apple", "banana", "mango"]
+
+set Example:
+items = {"apple", 10, 2.5}
+
+Dictionary example
+student = {
+    "name": "Arun",
+    "age": 21,
+    "course": "Python"
+}
+
+tuple example
+fruits = ("apple", "banana", "mango")
+
+ 
+
+
+
